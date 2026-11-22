@@ -8,7 +8,6 @@ class Employee:
         print("Name:", self.name)
         print("Salary:", self.salary)
 
-
 class Developer(Employee):
 
     def __init__(self, name, salary, language):
